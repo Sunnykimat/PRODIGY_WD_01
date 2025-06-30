@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EcoCart - Green Living Store</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header id="navbar">
+    <div class="logo">EcoCart</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Green Living Starts Here</h1>
+      <p>Shop eco-friendly, live consciously, and earn rewards for your green choices.</p>
+      <a href="#" class="cta-button">Explore Store</a>
+    </div>
+  </section>
+
+  <!-- Product Showcase -->
+  <section class="products">
+    <h2>Best Sellers</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="https://source.unsplash.com/300x300/?eco,bottle" alt="Reusable Bottle">
+        <h3>Reusable Bottle</h3>
+        <p>Eco hydration on the go.</p>
+        <a href="#" class="buy-btn">Buy Now</a>
+      </div>
+      <div class="product">
+        <img src="https://source.unsplash.com/300x300/?bamboo,toothbrush" alt="Bamboo Toothbrush">
+        <h3>Bamboo Toothbrush</h3>
+        <p>Sustainable oral care.</p>
+        <a href="#" class="buy-btn">Buy Now</a>
+      </div>
+      <div class="product">
+        <img src="https://source.unsplash.com/300x300/?eco,bag" alt="Eco Bag">
+        <h3>Reusable Bag</h3>
+        <p>No more plastic waste.</p>
+        <a href="#" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
